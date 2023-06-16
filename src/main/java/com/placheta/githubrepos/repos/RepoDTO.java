@@ -36,7 +36,7 @@ public class RepoDTO {
         this.cloneUrl = cloneUrl;
     }
 
-    @JsonProperty("getStars")
+    @JsonProperty("stars")
     public int getStars() {
         return this.stars;
     }
